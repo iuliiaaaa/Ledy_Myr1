@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/img/wallpaperflare.com_wallpaper.jpg);
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.exitAdmin {
+    color: white;
+    background-color: rgba(204, 204, 204, 0);
+    width: 100px
+}
+.order-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.com-flex12 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
+.colOrd {
+    width: 150px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse; /* Отображать двойные линии как одинарные */
+   }
+   th {
+    background: #ccc; /* Цвет фона */
+    text-align: left; /* Выравнивание по левому краю */
+   }
+   td, th {
+    padding: 4px; /* Поля в ячейках */
+    width: 110px;
+   }
+.com-position {
+    max-width: 250px;
+    width: 100%;
+}
+
+.list-group-com {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.brand-flex {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;    
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    gap: 20px;
+    align-items: center;
+}
+.card-catalog {
+    border-left: 1px rgb(222, 118, 243) solid;
+    border-right: 1px rgb(222, 118, 243) solid;
+    border-bottom: 1px rgb(222, 118, 243) solid;
+    border-top: 1px rgb(222, 118, 243) solid;
+    width: 300px;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pd-card-admin {
+    padding: 20px;
+}
+.card-img {
+    width: 270px;
+    height: 270px;
+    padding: 15px;
+    border-radius: 20%;
+    border: 0px black solid;
+  }
+.btn-to-basket {
+    background-color: white;
+    color:rgb(222, 118, 243) ;
+}
+.col {
+    color: white;
+}
+th {
+    color: white;
+}
+td{
+    color: white;
+}
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.admin {
+    margin: 5px;
+    width: 260px;
+    height: 100%;
+    max-height: 100%;
+    padding: 10px;
+    position: fixed;
+    background-size: 100%;
+    border: 1px rgb(222, 118, 243) solid;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.index-main {
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 35px;
+    padding-top: 5px;
+    min-height: 800px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+}
+.card {
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+}
+.padding {
+    padding: 20px;
+}
+.list-group{
+
+}
+.list-group-flush {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    align-items: center;
+}
+.list-group li {
+    width: 150px;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    color: white;
+    border: 0px;
+}
+.list-group li img {
+    max-width: 170px;
+    width: 100%;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+}
+hr {
+    color: white;
+}
+.padding {
+    margin: 0 auto;
+    text-align: center;
+}
+.list-group-flush1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    align-items: center;
+    list-style-type: none;
+}
+.card1 {
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.list-group1 li {
+    width: 350px;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    color: white;
+    border: 0px;
+}
+.createTopical {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+.list-group-flush2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    align-items: center;
+    list-style-type: none;
+}
+.card2 {
+    background-color: rgba(65, 125, 177, 0);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+}
+.img-admin-we-should-trust {
+    width: 100px;
+    height: 70px;
+}
+.createWeShould {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card3 {
+    width: 100%;
+}
+.createWeShould div {
+    width: 200px;
+}
+.list-group-flush3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.list-group-flush3 div{
+    padding: 20px;
+    width: 200px;
+}
+.flex-card-5 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.flex-card-5 div {
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card5-form-flex {
+    display: flex;
+    justify-content: space-around;
+}

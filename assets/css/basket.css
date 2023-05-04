@@ -1,0 +1,135 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.productInBasket {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgb(222, 118, 243);
+}
+.img-baskets-product {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.flex-img-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item-basket {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.btn-plus-item{
+    width: 50px;
+    height: 50px;
+border: 0px solid;
+border-radius: 50%;
+color: white;
+background-color: rgba(0, 255, 255, 0);
+backdrop-filter: blur(15px);
+}
+.btn-minus-item{
+    width: 50px;
+    height: 50px;
+border: 0px solid;
+border-radius: 50%;
+color: white;
+background-color: rgba(0, 255, 255, 0);
+backdrop-filter: blur(15px);
+}
+.deleted {
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0);
+    backdrop-filter: blur(15px);
+}
+.btn-icon-icons{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+.total {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 1px;
+    
+}
+.basket-bl2 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.arrange {
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    color: rgb(76, 19, 102);
+    animation: 1s ease-out;
+}
+.clear{
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    color: rgb(91, 22, 122);
+}
+.arrange:hover {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    transition-timing-function: ease;
+}
+.clear:hover {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    transition-timing-function: ease;
+}
+@media (max-width:900px){
+    .total {
+        width: 98%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .flex-img-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .basket-bl2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .basket-bl1 {
+        display: flex;
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align: center;
+        /* align-items: center; */
+    }
+    .total-count {
+        margin-top: -40px;
+    }
+}

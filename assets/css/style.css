@@ -1,0 +1,621 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/img/wallpaperflare.com_wallpaper.jpg);
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn {
+    color: white;
+}
+th {
+    color: white;
+}
+td {
+    color: white;
+}
+li {
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.test-h1 {
+    text-align: center;
+}
+
+.div-nav-bar {
+    padding-top: 20px;
+}
+.header-logo-site {
+    position: fixed;
+    bottom: 1px;
+    margin: 0 auto;
+}
+.img-header-logo{
+    width: 100%;
+
+}
+.hr-paddisng-bot {
+    margin-top: 30px;
+}
+.widh-delivery {
+    width: 30%;
+}
+.cardDelivery {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+header {
+    margin: 5px;
+    width: 260px;
+    height: 100%;
+    max-height: 100%;
+    padding: 10px;
+    position: fixed;
+    background-size: 100%;
+    border: 1px rgb(222, 118, 243) solid;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.index-main {
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 35px;
+    padding-top: 5px;
+    min-height: 800px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.container-div-main {
+    padding: 40px;
+    width: 100%;
+    min-height: 795px;
+    height: 100%;
+    border-left: 1px rgb(222, 118, 243) solid;
+    border-right: 1px rgb(222, 118, 243) solid;
+    border-top: 1px rgb(222, 118, 243) solid;
+    backdrop-filter: blur(15px);
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+.auth-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid rgb(222, 118, 243);
+}
+.flex-prof {
+    display: flex;
+    width: 100px;
+}
+.flex-prof div{
+    padding: 5px;
+}
+.bar-act {
+    margin-top: -7px;
+}
+
+.logo {
+    width: 500px;
+}
+.info {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.txt-glav {
+    margin-top: 70px;
+}
+.pf-r {
+    width: 100%;
+    min-height: 250px;
+    max-height: 350px;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(222, 118, 243);
+    padding: 30px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+h2 {
+    padding: 20px;
+}
+.pf-r-bl-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    width: 300px;
+}
+.pf-r-bl-2 p {
+    color: white;
+    margin-right: 30px
+}
+.pf-r-bl-2-info-bl-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.pf-r-bl-2-info-bl-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 200px;
+    justify-content: space-around;
+}
+.order {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px rgb(222, 118, 243) solid;
+    border-radius:20px ;
+    min-height: 69.3vh;
+    backdrop-filter: blur(15px);
+}
+h2
+.btn-order-tovar {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.avatar-profile {
+    margin-top: 15px; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.custom-file-input {
+    margin-top: 15px; 
+    color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+  }
+  .custom-file-input:hover>.img-file{
+      display: block;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+    background-color: black;
+  }
+.pf-r-bl-1 {
+    width: 150px;
+    height: 150px;
+}
+.custom-file-input:hover{
+    background-color: rgba(0, 0, 0, .527);
+}
+.img-file {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top:70px ;
+    margin-left: 55px;
+    color: rgba(0, 0, 0, 0);
+}
+.where-block-main {
+
+
+    width: 99%;
+    height: 100%;
+}
+.btn-group {
+    border: 1px rgb(207, 105, 136) solid;
+    margin-top: 20px ;
+}
+.dropdown-menu {
+    padding: 2px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    margin-left: 300px;
+    margin-right: 35px;
+    padding-top: 5px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.footer-block{
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    border-left: 1px rgb(222, 118, 243) solid;
+    border-right: 1px rgb(222, 118, 243) solid;
+    border-bottom: 1px rgb(222, 118, 243) solid;
+    border-top: 1px rgb(222, 118, 243) solid;
+    color: white;  
+    display: flex;
+    justify-content: space-around;
+}
+.brends-main-block {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(226, 43, 43, 0.719);
+    border-radius: 10px 0px 10px 0px;
+    }
+    .ul-brends {
+    display: flex;
+    justify-content: space-around;
+    }
+    .li-brends {
+    padding-top: 5px;
+
+    }
+    .li-brends1 {
+        padding-top: 5px;
+        }
+.flex-option{
+    vertical-align: middle;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+#select {
+width: 150px;
+}
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border-left: 1px rgb(222, 118, 243) solid;
+    border-right: 1px rgb(222, 118, 243) solid;
+    border-bottom: 1px rgb(222, 118, 243) solid;
+    border-top: 1px rgb(222, 118, 243) solid;
+}
+.info-block-2 {
+    width: 100%;
+}
+.card-catalog {
+    border-left: 1px rgb(222, 118, 243) solid;
+    border-right: 1px rgb(222, 118, 243) solid;
+    border-bottom: 1px rgb(222, 118, 243) solid;
+    border-top: 1px rgb(222, 118, 243) solid;
+    width: 300px;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-img {
+    width: 270px;
+    height: 270px;
+    padding: 15px;
+    border-radius: 20%;
+    border: 0px black solid;
+  }
+.btn-to-basket {
+    background-color: white;
+    color:rgb(222, 118, 243) ;
+}
+.flex-info-dr {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgAboutAs{
+width: 450px;
+height: 250px;
+
+}
+.color-hr-about {
+    color: white;
+}
+.info-block-contacts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.info-block-contacts div {
+    width: 200px;
+    text-align: center;
+
+}
+.info-block-1 {
+    width: 100%;
+}
+.inserImage {
+    background-color: #ffffff00;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    border: 0.2px solid;
+}
+
+.total-price {
+    font-size: 20px;
+}
+.total-count {
+    font-size: 20px;
+}
+.cardMaps{
+    margin: 0 auto;
+}
+.basket-bl2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 60px;
+}
+.arrOrId{
+    display: none;
+}
+.order_stut {
+text-align: center;
+}
+
+@media (max-width:900px){
+    .pf-r-bl-2-info-bl-1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .order .table{
+        font-size: 12px;
+    }
+    .pf-r{
+        padding: 5px;
+        height: 100%;
+    }
+    .inserImage{
+        margin-top: 5px;
+    }
+    .imgAboutAs {
+        width: 350px;
+        height: 220px;
+    }
+    .cardMaps{
+        margin: 0 auto;
+    }
+    .flex-info-dr div {
+        margin: 0 auto;
+    }
+    .dropdown-menu{
+        width: 400px;
+        word-wrap: break-word;
+    }
+    .dropdown-item{
+        width: 400px;
+        word-wrap: break-word;
+    }
+    .flex-info-dr{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .btn-danger {
+        /* width: 100%;
+        height: 100%; */
+        word-break: break-all;
+    }
+    header {
+        position: fixed;
+        z-index: 2;
+        width: 0;
+        height: 0;
+    }
+    .menu-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        z-index:3;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 20px;
+        overflow: hidden;
+        background-color: rgb(172, 27, 140);
+        border-radius: 50%;
+        border: 1px white solid;
+    }
+    .menu-btn span {
+        width: 20px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        transition: all 0.5s;
+    }
+    .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 5px);
+    }
+    .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 5px);
+    }
+    .index-main {
+        width: 100%;
+        max-width: 900px;
+        margin-left: 5px;
+        margin-right: 10px;
+        padding-top: 5px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.24);
+    }
+    footer{
+        width: 100%;
+        max-width: 900px;
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.24);
+    }
+    .footer-block{
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(15px);
+        border-radius: 0px 0px 20px 20px;
+        text-align: center;
+        border-left: 1px rgb(222, 118, 243) solid;
+        border-right: 1px rgb(222, 118, 243) solid;
+        border-bottom: 1px rgb(222, 118, 243) solid;
+        border-top: 1px rgb(222, 118, 243) solid;
+        color: white;  
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .name-stocks a h2{
+        font-size: 20px;
+    }
+    .name-stocks {
+    width: 100%;
+    text-align: center;
+    }
+    .menu {
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: transform 0.5s; 
+    }
+    .menu.active {
+        transform: translateX(0);
+        display: block;
+    }
+    .menu li {
+        list-style-type: none;
+    }
+    .menu-btn.active span:nth-of-type(1) {
+        display: none;
+      }
+      .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);  
+      }
+      .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg); 
+      }
+      .container-div-main {
+        padding: 5px;
+        width: 100%;
+        min-height: 795px;
+        height: 100%;
+        border-left: 1px rgb(222, 118, 243) solid;
+        border-right: 1px rgb(222, 118, 243) solid;
+        border-top: 1px rgb(222, 118, 243) solid;
+        backdrop-filter: blur(15px);
+        border-radius: 20px 20px 0px 0px;
+        text-align: center;
+        color: white;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(/assets/img/wallpaperflare.com_wallpaper.jpg);
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .pf-r-bl-1 {
+        width: 100%;
+        height: 150px;
+    }
+    .pf-r-bl-2{
+        margin-top: 40px;
+    }
+}
+
+.comments-main-block {
+    display: flex;
+     max-width: 700px;
+     width: 100%;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.comments-main-block1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.avatar-comments {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.comments-main-block1 hr {
+    color: white;
+}
+.login-comments {
+    float: left;
+}
+.text-comments {
+    float: left;
+}
+.flex-comments{
+    text-align: left;
+    width: 100%;
+}
+.login-comments1 {
+    color: rgba(255, 255, 255, 0.63);
+    margin-left: 100px;
+}    
+
